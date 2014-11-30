@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cat Tween.js \
+OpacityTween.js \
+Sequence.js\
+> jstween.js

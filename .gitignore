@@ -1,0 +1,6 @@
+_private_config.inc
+.project
+.buildpath
+.settings
+*/**/.*.swp
+.*.swp

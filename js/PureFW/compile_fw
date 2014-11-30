@@ -1,0 +1,52 @@
+#!/bin/sh
+
+cat pure_fw.js \
+Timeout.js \
+Time.js \
+EventUtil.js \
+MouseFeatures.js \
+PicPath.js \
+WidgetManager.js \
+AJAXClientServer.js \
+Widgets/Widget.js \
+Widgets/Image.js \
+Widgets/Container.js \
+Widgets/CollapseContainer.js \
+Widgets/Checkbox.js \
+Widgets/RadioButton.js \
+Widgets/DropMenu.js \
+Widgets/ScrollContainer.js \
+Widgets/ContainerAJAX.js \
+Widgets/TextArea.js \
+Widgets/Label.js \
+Widgets/FilmAnimator.js \
+Widgets/WindowAJAX.js \
+Widgets/Icon.js \
+Widgets/Slider.js \
+Widgets/Scrollbar.js \
+Widgets/ScrollBox.js \
+Widgets/TabBox.js \
+Widgets/ProgressBar.js \
+Widgets/IsoMap/Map.js \
+Widgets/IsoMap/PseudoClickMap.js \
+Widgets/IsoMap/ClickMap.js \
+Widgets/IsoMap/ClickMap3D.js \
+Widgets/IsoMap/VisMap.js \
+Widgets/IsoMap/VisMap3D.js \
+Widgets/IsoMap/PseudoMultilayerMap.js \
+Widgets/IsoMap/MultilayerMap.js \
+> pure_fw_all.js
+
+
+if [ -e ~/scripts/JSO/jso ]
+then
+	my_dir=$PWD
+	cd ~/scripts/JSO/
+	./jso $my_dir/pure_fw_all.js $my_dir/pure_fw_all2.js
+	cd -
+	mv pure_fw_all2.js pure_fw_all.js
+fi
+
+cd jstween
+./compile_jstw
+cd ..

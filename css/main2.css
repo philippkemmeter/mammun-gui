@@ -1,0 +1,216 @@
+@charset "utf-8";
+html {
+	height: 100%;
+}
+
+body {
+/*  scrollbar-face-color: #1A1A4A;
+  scrollbar-shadow-color: #5050A0;
+  scrollbar-highlight-color: #5050A0;
+  scrollbar-3dlight-color: #101040;
+  scrollbar-darkshadow-color: #101040;
+  scrollbar-track-color: #1A1A4A;
+  scrollbar-arrow-color: #5050A0;
+  background-image: url(../pix/bg_1.3.jpg);
+  background-color: #101040;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	height: 100%;
+	/*background: #2F4AA5;*/
+	background: #000000;
+}
+
+form {
+	margin-bottom: 0px;
+}
+
+td,tr,p,div {
+/*	color: #fff; */
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+}
+td.list_row {
+	border-bottom-style: dashed; 
+	border-bottom-width: 1px; 
+	/*border-bottom-color: #292d66;*/
+}
+h1 {
+	/*color: #C5C5FF;*/
+	font-family: Arial, sans-serif;
+	font-size: 2em;  
+}
+
+h2 {
+	/*color: #C5C5FF;*/
+	font-family: Arial, sans-serif;  
+	font-size: 1.2em; 
+}
+
+
+.positive {
+	color: #00dd00;
+}
+
+.negative {
+	color: #dd0000;
+}
+
+.error {
+	color: #ff0000;
+}
+
+.small {
+	font-size: 0.8em;
+}  
+
+.hr {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	left: 3%;
+	/*background-image: url(../pix/hr.gif);*/
+	background-repeat: repeat-x;
+	line-height: 7px;
+	width: 95%;
+}
+
+select, option, textarea, input {
+	/*color: #8080d0; 
+	background-color: #101040;*/ 
+	border: 1px solid /*#505080*/;
+	font-size: 1em;
+}
+
+input.button {
+	/*color: #8080d0;*/ 
+	font-weight: 700; 
+	font-size: 0.8em; 
+	/*background-color: #101040;*/ 
+	border: 1px solid /*#505080*/;
+}
+input {
+	color: #366a9b;
+	font-weight: bold;
+	font-size: 1.3em;
+	height: 100%; 
+	padding:4px; 
+	color: #366A9B;
+	background:url(../pix/pattern/spacer.gif) 0 0 no-repeat transparent;
+	border: none; 
+}
+
+input[disabled] {
+	color: #a0a0a0;
+	/*background-color: #151520;*/
+}
+
+select[disabled] {
+	color: #a0a0a0;
+	/*background-color: #151520;*/
+}
+
+
+a.tooltip:link, a.tooltip:visited {
+	color: #FFD000;
+	padding-right: 10px;
+	border-bottom: 1px dashed #FFCC00;
+/*	background-image: url(../pix/tooltip_icon.gif);
+	background-position: top right;
+	background-repeat: no-repeat;  
+	text-decoration:none;*/
+}
+a.tooltip:hover, a.tooltip:active {
+	border-bottom: 1px dashed #FFF000;
+	color: #FFF000;
+	/*padding-right: 10px;
+	background-image: url(../pix/tooltip_icon.gif);
+	background-position: top right;
+	background-repeat: no-repeat;   
+	text-decoration: none;*/
+}
+
+a:link, a:visited {
+	color: #366A9B;
+	text-decoration: none;
+}
+  
+a:hover, a:active a:focus {
+	color: #366A9B;
+	text-decoration: underline;
+}
+
+div.loading {
+	background-image: url(../pix/contBoxes/rot/body_bg.png);
+	background-repeat: repeat;
+	color: #ffffff;
+	position: absolute;
+	right: 4px; 
+	top: 4px;
+	padding: 2px;
+}
+/******************
+ * Pulldown Class *
+ ******************/
+.pulldown {
+	background-image: url(../pix/ui/elements/pulldowns/bg_pulldown.png);
+	color: #101040; 
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+	font-style: italic;
+	border: 1px solid #9898bc;
+	line-height: 17px;
+	z-index: 999;
+	color: #000000;
+	visibility: hidden;
+}
+
+.pulldown span {
+	padding-left: 3px;
+	color: #A0A0A0;
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+	font-style: normal;  
+	font-weight: normal;
+	display: block;
+	text-decoration: none;
+}
+
+.pulldown a:link, .pulldown  a:visited {
+	padding-left: 3px;
+	color: #101040; 
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	display: block;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.pulldown a:hover, .pulldown a:active, .pulldown a:focus {
+	padding-left: 3px;
+	background-image: url(../pix/ui/elements/pulldowns/bg_pulldown_sub.png);
+	color: #101040; 
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+	font-style: normal;  
+	font-weight: normal;  
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+
+/*******
+ * Headlines
+ */
+ 
+.headline_mid_simple {
+	font-size: 1.4em;
+	font-weight: bold;
+}

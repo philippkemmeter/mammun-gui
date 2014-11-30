@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/**
+ * Standard-Tabbox
+ */
+
+.TabBox {
+}
+
+.TabBox_tab_inactive {
+	background-color: navy;
+}
+.TabBox_tab_active {
+	background-color: blue;
+}
+
+.TabBox_tabcontent {
+	width: 100%;
+}
+
+
+/**
+ * Unit-Tabbox
+ */
+
+.TabBox_tab0_active_UNITS {
+	background: url('../pix/ui/elements/tabs/train.png') top left no-repeat;
+}
+.TabBox_tab0_inactive_UNITS {
+	background: url('../pix/ui/elements/tabs/train_off.png') top left no-repeat;
+}
+.TabBox_tab1_active_UNITS {
+	background: url('../pix/ui/elements/tabs/build.png') top left no-repeat;
+}
+.TabBox_tab1_inactive_UNITS {
+	background: url('../pix/ui/elements/tabs/build_off.png') top left no-repeat;
+}
+.TabBox_tab2_active_UNITS {
+	background: url('../pix/ui/elements/tabs/diplomacy.png') top left no-repeat;
+}
+.TabBox_tab2_inactive_UNITS {
+	background: url('../pix/ui/elements/tabs/diplomacy_off.png') top left no-repeat;
+}
+
+.TabBox_tabcontent_UNITS {
+	width: 92%;
+	left: 4%;
+	overflow: auto;
+}

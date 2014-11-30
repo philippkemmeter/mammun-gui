@@ -1,0 +1,89 @@
+@charset "utf-8";
+.PopupMenu {
+	background-image: url(../pix/ui/elements/pulldowns/bg_pulldown.png);
+	color: #101040; 
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-style: italic;
+	border: 1px solid #9898bc;
+	line-height: 17px;
+	z-index: 10000;
+	color: #000000;
+	visibility: hidden;
+}
+
+.PopupMenu span {
+	padding-left: 3px;
+	padding-right: 3px;
+	color: #A0A0A0;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-style: normal;  
+	font-weight: normal;
+	display: block;
+	text-decoration: none;
+}
+
+.PopupMenu a:link, .PopupMenu  a:visited {
+	padding-left: 3px;
+	padding-right: 3px;
+	color: #101040; 
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	display: block;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.PopupMenu a:hover, .PopupMenu a:active, .PopupMenu a:focus {
+	padding-left: 3px;
+	padding-right: 3px;
+	background-image: url(../pix/ui/elements/pulldowns/bg_pulldown_sub.png);
+	color: #101040; 
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-style: normal;  
+	font-weight: normal;  
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.PopupMenu div {
+	padding-left: 3px;
+	padding-right: 3px;
+	color: #101040; 
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	display: block;
+	cursor: pointer;
+	white-space: nowrap;	
+}
+.PopupMenu div.hover {
+	padding-left: 3px;
+	padding-right: 3px;
+	background-image: url(../pix/ui/elements/pulldowns/bg_pulldown_sub.png);	
+	color: #101040; 
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	display: block;
+	cursor: pointer;
+	white-space: nowrap;	
+}
+.PopupMenu div.disabled {
+	padding-left: 3px;
+	padding-right: 3px;
+	color: #606060; 
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	display: block;
+	cursor: default;
+	white-space: nowrap;	
+}

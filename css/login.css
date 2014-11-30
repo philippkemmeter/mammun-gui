@@ -1,0 +1,78 @@
+@charset "utf-8";
+/**
+ * Overwrites
+ */
+ 
+body {
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * 
+ */
+.error {
+	display: none;
+}
+#loginBox {
+	width: 421px;
+	height: 172px;
+	background: url('../pix/ui/backgrounds/login/formBg.png') top left no-repeat;
+	margin: auto;
+	padding: 15px;
+}
+
+#loginBox form {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#loginBox form label {
+	float: left;
+	width: 200px;
+	text-align: left;
+	margin-top: 5px;
+	font-size: 18px;
+	padding: 2px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+#loginBox form input#nick, #loginBox form input#pass {
+	float: left;
+	width: 200px;
+	margin-top: 5px;
+	border: 1px solid #d8dee8;
+	background: #f6faff;
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+	padding: 2px;
+	color: #333;
+}
+#loginBox form input#input_pin, #loginBox form img#pin {
+	float: left;
+	margin-top: 5px;
+	padding: 0
+}
+#loginBox form img#pin {
+	height: 26px;
+}
+#loginBox form input#input_pin {
+	width: 80px;
+	margin-left: 5px;
+	border: 1px solid #d8dee8;
+	background: #f6faff;
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+	padding: 2px;
+	color: #333;
+}
+#loginBox form br {
+	clear: left;
+}
+
+#loginBox input.UI_button {
+	margin-top: 20px;
+}

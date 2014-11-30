@@ -1,0 +1,18 @@
+#!/bin/sh
+
+cat math_ext.js \
+Random.js \
+LinAlg2D/Vector.js \
+LinAlg2D/Line.js \
+> math_ext_all.js
+
+
+if [ -e ~/scripts/JSO/jso ]
+then
+	my_dir=$PWD
+	cd ~/scripts/JSO/
+	./jso $my_dir/math_ext_all.js $my_dir/math_ext_all2.js
+	cd -
+	mv math_ext_all2.js math_ext_all.js
+fi
+

@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+#background{
+	border: 1px solid #366a9b;
+	width: 756px;
+}
+
+#all {
+	width: 756px;
+}
+#header {
+	background-position: -30px 0;
+}
+
+#navigation {
+	background-position: -30px 0;
+}
+
+#footer, #footerContent {
+	width: 756px;
+}

@@ -1,0 +1,421 @@
+@charset "utf-8";
+h1, h2, h3, h4 {
+	margin:  0;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+}
+
+/**
+ * User Interface
+ * 
+ * Allen UI-Klassen/IDs verwenden den prefix 'UI_'
+ */
+ 
+#UI_mainborder {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 90;
+}
+
+/* Top UI Element mit Ressourcen, Live Messages, Minimap, Buttons */
+#UI_top_left {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: url('../pix/ui/backgrounds/mapUiTop/left.png') top left no-repeat;
+	height: 81px;
+	width: 769px;
+	z-index: 200;
+}
+/* Top UI Element mit Ressourcen, Live Messages, Minimap, Buttons */
+#UI_top_right {
+	position: absolute;
+	top: 10px;
+	left: 779px;
+	background: url('../pix/ui/backgrounds/mapUiTop/right.png') top left no-repeat;
+	height: 163px;
+	width: 214px;
+	z-index: 200;
+}
+
+/**
+ * Top Navigation
+ */
+/* Navigationsbereich */
+/*#UI_top_buttons {
+	width: 267px;
+	height: 42px;
+	position: absolute;
+	left: 358px;
+	top: 25px;
+}*/
+
+/* Die einzelnen Schaltflächen unterhalb von #UI_top_buttons */
+#UI_top_buttons .UI_top_button {
+	float: left;
+	width: 10.861423%;
+	height: 71.43%;
+	margin-top: 0.74906367%;
+}
+#UI_top_buttons #UI_button_unitwizzard {
+	background: url('../pix/ui/icons/labels/btn_off.png') 50% no-repeat;
+}
+#UI_top_buttons #UI_button_unitsoverview {
+	background: url('../pix/ui/icons/labels/btn_off.png') 50% no-repeat;
+}
+#UI_top_buttons #UI_button_science {
+	cursor: pointer;
+}
+#UI_top_buttons #UI_button_stats {
+	width: 10.486891%;
+	background: url('../pix/ui/icons/labels/btn_off.png') 50% no-repeat;
+}
+#UI_top_buttons #UI_button_mainmenu {
+	width: 14.606742%;
+	height: 100%;
+	margin: 0;
+	cursor: pointer;
+}
+#UI_top_buttons #UI_button_chat {
+	background: url('../pix/ui/icons/labels/btn_off.png') 50% no-repeat;
+}
+#UI_top_buttons #UI_button_messages {
+	background: url('../pix/ui/icons/labels/btn_off.png') 50% no-repeat;
+}
+#UI_top_buttons #UI_button_notes {
+	width: 10.486891%;
+	cursor: pointer;
+}
+#UI_top_buttons #UI_button_help {
+	width: 10.11236%;
+	cursor: pointer;
+/*	background: url('../pix/ui/icons/labels/btn_off.png') 50% no-repeat;*/
+}
+
+/**
+ * Ressourcen 
+ */
+/*.UI_ressources {
+	position: absolute; 
+	left: 10px; 
+	top: 10px;*/ 
+	/*background: url('../pix/ui/backgrounds/ressources.png') top left no-repeat;*/
+	/*width: 200px; 
+	height: 60px; 
+	z-index: 220;
+}*/
+
+.UI_ressources table {
+	margin-top: 10px;
+}
+
+.UI_ressources table th,
+.UI_ressources table td {
+	text-align:center;
+}
+
+#UI_liveMessages {
+/*	position: absolute;
+	top: 13px;
+	left: 210px;
+	height: 25px;
+	width: 600px;
+	z-index: 220;*/
+	text-align: center;
+	color: #444;
+}
+
+/* Pausemenü */
+#UI_menu {
+	position: absolute;
+	top: 68px;
+	left: 377px;
+	background: url('../pix/ui/backgrounds/pause_menu/menu.png') top left no-repeat;
+	width: 252px;
+	height: 268px;
+	z-index: 190;
+	display: none;
+}
+
+#UI_buildings {}
+
+#UI_diplomacy {}
+
+#UI_shoutbox {}
+
+#UI_notes {
+	position: absolute;
+	right: 1%;
+	top: 27.727273%;
+	width: 210px;
+	height: 222px;
+	background: url('../pix/ui/backgrounds/notes/background.png') top left no-repeat;
+	display: none;
+	z-index: 210;
+}
+#UI_notes textarea {
+	width: 190px;
+	height: 175px;
+	margin-left: 8px;
+	margin-top: 30px;
+	background: url('../pix/ui/backgrounds/notes/lines.png') top left repeat;
+	font-family: monospace;
+	border: 0;
+	line-height: 16px;
+}
+
+#UI_window_to_tribes_arrow {
+	position: absolute;
+	left: 780px;
+	top: 350px;
+	width: 88px;
+	height: 67px;
+	background: url('../pix/ui/backgrounds/window-786x563/arrow_trainingsplan-unittab.png') top left no-repeat;
+	display: none;
+	z-index: 225;
+}
+/**
+ * Windows
+ */
+/* Sciences */
+#UI_window_sciences {
+	color: #fff;
+/*	position: absolute;
+	left: 210px;
+	top: 150px;*/
+}
+
+#UI_window_sciences ul, #UI_window_sciences ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#UI_window_sciences li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+#UI_window_sciences_select {}
+#UI_window_sciences_select thead {
+	background: url('../pix/ui/elements/table/thead/background.png') top left repeat-x #2C3A56;
+}
+#UI_window_sciences_select tbody {
+	background-color: #425C90;
+}
+#UI_window_sciences_projects {}
+#UI_window_sciences_projects thead {
+	background: url('../pix/ui/elements/table/thead/background.png') top left repeat-x #2C3A56;
+}
+#UI_window_sciences_projects tbody {
+	background-color: #425C90;
+}
+
+/* Bugreport */
+
+#UI_window_bugreport {
+	width: 90%;
+	margin: auto;
+	height: 90%;
+	overflow: auto; 
+}
+
+#UI_window_bugreport textarea {
+	width: 99%;
+	height: 150px;
+}
+
+.UI_button {
+	width: 100px;
+	height: 22px;
+	line-height: 22px;
+	margin: 0;
+	border: 0;
+	color: #fff;
+}
+/* TODO: Falls IE 6 unterstützt werden soll, wird dieser Wert nicht funktionieren */
+.UI_button[disabled] {
+	color: silver;
+}
+.UI_button_single {
+	width: 102px;
+	background: url('../pix/ui/elements/form/buttons/single-102x22.png') top left repeat-x;
+}
+.UI_button_single_bigger {
+	width: 152px;
+	background: url('../pix/ui/elements/form/buttons/single-152x22.png') top left repeat-x;
+}
+.UI_button_single_big {
+	width: 202px;
+	background: url('../pix/ui/elements/form/buttons/single-202x22.png') top left repeat-x;
+}
+.UI_button_single_close {
+	width: 102px;
+	background: url('../pix/ui/elements/form/buttons/single-close-102x22.png') top left repeat-x;
+}
+.UI_sectorView_close {
+	z-index: 10;
+	position: absolute;
+	left: 450px;
+	top: 600px;
+	text-indent: 23px;
+}
+/**
+ * Wizard
+ */
+.UI_wizard_button {
+	width: 100px;
+	height: 22px;
+	margin: 0;
+	border: 0;
+	color: #fff;
+}
+.UI_wizard_buttonLeft {
+	width: 102px;
+	background: url('../pix/ui/elements/form/buttons/left-102x22.png') top left repeat-x;
+}
+.UI_wizard_buttonMiddle {
+	background: url('../pix/ui/elements/form/buttons/middle-100x22.png') top left repeat-x;
+}
+.UI_wizard_buttonRight {
+	background: url('../pix/ui/elements/form/buttons/right-100x22.png') top left repeat-x;
+}
+/* TODO: Falls IE 6 unterstützt werden soll, wird dieser Wert nicht funktionieren */
+.UI_wizard_button[disabled] {
+	color: silver;
+}
+
+/**
+ * mini tribes
+ */
+.UI_miniTribes_back {
+	width: 76px;
+	background: url('../pix/ui/elements/form/buttons/left-76x22.png') top left no-repeat;
+}
+.UI_miniTribes_train {
+	width: 76px;
+	background: url('../pix/ui/elements/form/buttons/right-76x22.png') top left no-repeat;
+}
+
+/**
+ * Info-Popup-Fenter
+ */
+.UI_info_popup_text {
+	margin-left: 6.5%;
+	margin-right: 6.5%;
+	margin-top: 5.3%;
+	margin-bottom: 2%;
+	height: 75%;
+	overflow: auto;
+}
+
+/**
+ * ---------------
+ * Alex's testings
+ * ---------------
+ */
+ 
+/**
+ * Units Section
+ */
+ 
+#UI_window_units_queue
+{
+	position: absolute;
+	height: 100%;
+	width: 24.5%;
+	left: 75.5%;
+}
+
+#UI_window_units_slots
+{
+	position: absolute;
+	height: 100%;
+	width: 75.5%;
+}
+
+/**
+ * Buildings Section
+ */
+ 
+#UI_window_buildings_icons
+{
+	position: absolute;
+	height: 100%;
+	width: 28%;
+}
+
+#UI_window_buildings_desc
+{
+	position: absolute;
+	height: 100%;
+	width: 72%;
+	left: 28%;
+}
+
+/**
+ * Facebook Registration Section
+ */
+ 
+/**
+ * Science Section
+ */
+ 
+.UI_window_science 
+{
+	width: 33%;
+	position: absolute;
+	overflow: hidden;
+}
+
+#UI_window_science_general
+{
+	height: 100%;
+}
+
+#UI_window_science_races
+{
+	left: 34%;
+	height: 49%;
+}
+
+#UI_window_science_buildings
+{
+	height: 49%;
+	left: 34%;
+	top: 51%;
+}
+
+#UI_window_science_abilities
+{
+	left: 68%;
+	height: 100%;
+}
+
+.usersuffix{
+	color: inherit;
+	opacity: 0.5;
+}
+
+.star {
+	opacity: 1;
+	vertical-align: inherit;
+}
+
+
+.tutorial_box_small {
+	font-size: 1.2em;
+	z-index: 95;
+}
+
+.tutorial_box_big {
+	font-size: 1.2em;
+	z-index: 95;
+}

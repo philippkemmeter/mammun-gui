@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+div.ScrollBox_content {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+div.ScrollBox_container {
+	position: relative;	
+	overflow: hidden;
+	float: left;
+}
+
+div.ScrollBox_left_arrow {
+	background: url('../pix/ui/elements/scrollbars/scrollarrowleft.png') top left no-repeat;
+	float: left;
+}
+
+div.ScrollBox_right_arrow {
+	background: url('../pix/ui/elements/scrollbars/scrollarrowright.png') top left no-repeat;
+	float: left;
+}
+
+div.ScrollBox_top_arrow {
+	background: url('../pix/ui/elements/scrollbars/scrollarrowtop.png') top left no-repeat;
+}
+
+div.ScrollBox_bottom_arrow {
+	background: url('../pix/ui/elements/scrollbars/scrollarrowbottom.png') top left no-repeat;
+}

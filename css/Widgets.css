@@ -1,0 +1,208 @@
+@CHARSET "UTF-8";
+
+/**
+ * ConfirmationBox
+ */
+.ConfirmationBox {
+	font-size: 1.3em;
+	color: #333;
+	text-shadow: #fff 0 1px 0;
+}
+
+/**
+ * Window
+ */
+.Window_bright {
+	font-size: 1.3em;
+	color: #333;
+	text-shadow: #fff 0 1px 0;
+}
+
+.Window_dark {
+	font-size: 1.3em;
+	color: #fff;
+	text-shadow: #999 0 1px 0;
+}
+
+/**
+ * OfficerBalloon
+ */
+.OfficerBalloon {
+	font-size: 1.2em;
+}
+.OfficerBalloon a:link, .OfficerBalloon a:visited {
+	color: #96BAFB;
+	text-decoration: none;
+}
+
+.OfficerBalloon a:hover, .OfficerBalloon a:active, .OfficerBalloon a:focus {
+	color: #96BAFB;
+	text-decoration: underline;
+}
+
+.OfficerBalloon_small {
+	font-size: 1.0em;
+}
+
+.OfficerBalloon_mid {
+	font-size: 1.1em;
+}
+
+/**
+ * ChooseMap.IslandPreview
+ */
+.ChooseMap_IslandPreview_xp_cont_inner {
+	color: #333;
+	text-shadow: #fff 0 1px 0;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+/**
+ * ChooseMap.NewIslandPreview
+ */
+.ChooseMap_NewIslandPreview_xp_cont_inner {
+	color: #333;
+	text-shadow: #fff 0 1px 0;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+/**
+ * ChooseMap.MapTemplatesPreview
+ */
+.ChooseMap_MapTemplatesPreview_template_label {
+	color: #333;
+	text-shadow: #fff 0 1px 0;
+	font-weight: bold;
+	font-size: 0.7em;
+}
+
+/**
+ * PolaroidContainer
+ */
+.PolaroidContainer_widget_label {
+	color: #333;
+	text-shadow: #fff 0 1px 0;
+}
+
+/**
+ * XPBar
+ */
+.XPBar_score {
+	text-align: center;
+	color: #fff;
+	text-shadow: #999 0 1px 0;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.XPBar_level {
+	text-align: center;
+	color: #333;
+	text-shadow: #fff 0 1px 0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+/**
+ * BrezelAmt
+ */
+.BrezelAmt_cont {
+	text-align: center;
+	color: #333;
+	text-shadow: #fff 0 1px 0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+/**
+ * ChestItem
+ */
+.ChestItem_amount {
+	text-align: center;
+	color: #fff;
+	text-shadow: #999 0 1px 0;
+	font-weight: bold;
+	font-size: 1.2em;
+	z-index: 2;
+}
+
+.ChestItem_label {
+	text-align: center;
+	color: #333;
+	text-shadow: #fff 0 1px 0;
+	font-weight: bold;
+	font-size: 1.2em;
+	z-index: 2;
+}
+
+/**
+ * ShopCatalog
+ */
+.ShopCatalog_item_title {
+	text-align: left;
+	color: #fff;
+	text-shadow: #666 0 3px 2px;
+	font-weight: bold;
+	font-size: 2.1em;
+}
+
+.ShopCatalog_item_desc {
+	text-align: left;
+	color: #333;
+	text-shadow: #fff 0 1px 0;
+	font-size: 1.15em;
+}
+
+.ShopCatalog_item_desc_bright {
+	text-align: left;
+	color: #fff;
+	text-shadow: #666 0 3px 2px;
+	font-size: 1.15em;
+}
+
+.ShopCatalog_time_cont {
+	text-align: left;
+	color: #c00;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/**
+ * MammunSpeechBubble
+ */
+.MammunSpeechBubble_cont {
+	color: #fff;
+	font-size: 1.3em;
+/*	text-shadow: #999 0 1px 0;*/
+}
+
+.MammunSpeechBubble_name {
+	font-weight: bold;
+	text-align: center;
+}
+
+.MammunSpeechBubble_speech {
+	text-align: center;
+}
+
+/**
+ * EventMessage-Templates (Pseudo-Widgets)
+ */
+.EvMessage_score {
+	color: #40d00c;
+	font-weight: bold;
+	font-size: 1.4em;
+	text-shadow: #999 0 1px 0;
+}
+
+.EvMessage_headline {
+	text-align: center;
+	color: #333;
+	text-shadow: #666 0 3px 2px;
+	font-weight: bold;
+	font-size: 2em;
+}

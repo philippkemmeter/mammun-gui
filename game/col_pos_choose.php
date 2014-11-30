@@ -1,0 +1,1 @@
+<? include('data/col_pos_choose.inc') ?>
