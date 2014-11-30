@@ -1,4 +1,6 @@
-mammun-gui
+Mammun GUI
 ==========
 
-The GUI of the amazing Mammun Game
+This is the original GUI for the amazing Mammun GUI based on Javascript and CSS. It uses PHP for background processes to communicate with the Mammun Engine API.
+
+This GUI should still work in ordenary browsers.
